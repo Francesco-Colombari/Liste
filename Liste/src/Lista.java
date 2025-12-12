@@ -6,12 +6,17 @@ public class Lista {
         root = null;
     }
     
+    public void add (String s) {
+        Nodo n= new Nodo(s);
+        addTail(n);
+    }
+    
     public void addHead(Nodo n){
         Nodo temp = root;
         root = n;
         n.setNext(temp);
     }
-    
+
     public void addTail(Nodo n){
         if (root==null) {
             root = n;
