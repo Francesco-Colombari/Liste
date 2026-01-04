@@ -1,15 +1,11 @@
-public class Nodo {
-    
-    private String value;
-    private Nodo next;
-    
-    public Nodo (String v) {
-        value = v;
-        next = null;
+class Nodo {
+    int data;
+    Nodo prev;
+    Nodo next;
+
+    public Nodo(int data) {
+        this.data = data;
+        this.prev = null;
+        this.next = null;
     }
-    
-    public void setNext(Nodo n) {next=n;}
-    public Nodo getNext() {return next; }
-    public void setValue(String v) {value=v;}
-    public String getValue() {return value;}
 }
