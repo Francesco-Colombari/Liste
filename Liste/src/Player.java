@@ -19,4 +19,14 @@ public class Player {
             System.out.println("Errore nella scrittura del file");
         }
     }
+
+    public void salvaTeam() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'salvaTeam'");
+    }
+
+    public void save() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'save'");
+    }
 }
